@@ -19,7 +19,7 @@ import { DetalleFactura } from './entity/detalle-factura.entity';
 
 @Module({
   imports: [
-    /* the Module containing ClienteRepository */
+  
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
@@ -47,6 +47,6 @@ import { DetalleFactura } from './entity/detalle-factura.entity';
     FacturaService,
     VendedorService,
     DetalleFacturaService,
-    ClienteService, AppService, Cliente],
+    ClienteService, AppService],
 })
 export class AppModule { }
