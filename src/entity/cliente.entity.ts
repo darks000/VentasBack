@@ -6,6 +6,9 @@ export class Cliente {
     id:number;
 
     @Column()
+    cedula: String;
+
+    @Column()
     nombre:String;
 
     @Column()
@@ -13,5 +16,5 @@ export class Cliente {
     @Column()
     ciudad:String;
     @Column()
-    telefono:String;
+    telefono:number;
 }
